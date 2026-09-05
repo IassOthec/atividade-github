@@ -1,3 +1,0 @@
-Arquivo criado para a atividade de Git e GitHub.
-
-Este arquivo será removido em um commit posterior.
