@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#fff8fb;
+    color:#444;
+}
+
+header{
+    background:linear-gradient(90deg,#ff77b7,#ffb3d9);
+    color:white;
+    text-align:center;
+    padding:35px;
+}
+
+header h1{
+    font-size:2.2rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1rem;
+}
+
+main{
+    width:90%;
+    max-width:950px;
+    margin:35px auto;
+}
+
+.flor{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    background:white;
+    padding:18px;
+    margin-bottom:25px;
+    border-radius:18px;
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
+    transition:.3s;
+}
+
+.flor:hover{
+    transform:translateY(-3px);
+}
+
+.flor img{
+    width:230px;
+    height:170px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+.info{
+    flex:1;
+}
+
+.titulo{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.titulo h2{
+    color:#d63384;
+}
+
+.toggle{
+    width:35px;
+    height:35px;
+    border:none;
+    border-radius:50%;
+    background:#ff77b7;
+    color:white;
+    cursor:pointer;
+    font-size:18px;
+    transition:.3s;
+}
+
+.toggle:hover{
+    background:#d63384;
+    transform:rotate(180deg);
+}
+
+.descricao{
+    display:none;
+    margin-top:15px;
+    line-height:1.6;
+}
+
+footer{
+    background:#ff77b7;
+    color:white;
+    text-align:center;
+    padding:18px;
+    margin-top:40px;
+}
+
+@media(max-width:700px){
+    .flor{
+        flex-direction:column;
+    }
+
+    .flor img{
+        width:100%;
+        height:220px;
+    }
+}
