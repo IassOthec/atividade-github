@@ -1,2 +1,2 @@
 # atividade-github
-Atividade de GCSI
+Atividade comits
